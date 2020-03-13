@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/ic_launcher_background"
+            />
+
+        <item
+            android:id="@+id/nav_hospital"
+            android:title="hospital"
+            android:icon="@drawable/ic_launcher_background"
+            />
+
+        <item
+            android:id="@+id/nav_bus"
+            android:title="Bus"
+            android:icon="@drawable/ic_launcher_background"
+            />
+
+        <item
+            android:id="@+id/nav_shool"
+            android:title="school"
+            android:icon="@drawable/ic_launcher_background"
+            />
+
+    </group>
+
+
+
+    <item android:title="Profile">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_login"
+                    android:title="Login"
+                    android:icon="@drawable/ic_launcher_background"
+                    />
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:title="Profile"
+                    android:icon="@drawable/ic_launcher_background"
+                    />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="Log out"
+                    android:icon="@drawable/ic_launcher_background"
+                    />
+
+            </group>
+        </menu>
+
+    </item>
+
+
+
+    <item android:title="Communicate">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_share"
+                android:title="Share"
+                android:icon="@drawable/ic_launcher_background"
+                />
+
+            <item
+                android:id="@+id/nav_rate"
+                android:title="Rate"
+                android:icon="@drawable/ic_launcher_background"
+                />  <item
+            android:id="@+id/nav_feedback"
+            android:title="Feedback"
+            android:icon="@drawable/ic_launcher_background"
+            />
+
+        </menu>
+
+
+    </item>
+
+
+
+</menu>
