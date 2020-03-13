@@ -17,7 +17,7 @@
         android:textSize="15sp"
         android:textAppearance="@style/ShapeAppearance.MaterialComponents.LargeComponent"
         android:textAlignment="center"
-        android:background="#ff22"
+        android:background="#FFFEFE"
         />
 
     <TextView
@@ -30,7 +30,7 @@
         android:textAlignment="center"
         android:textSize="15sp"
         android:textAppearance="@style/ShapeAppearance.MaterialComponents.LargeComponent"
-        android:background="#ff22"
+        android:background="#FFFEFE"
         />
 
 
@@ -44,5 +44,5 @@
         android:textAlignment="center"
         android:textSize="15sp"
         android:textAppearance="@style/ShapeAppearance.MaterialComponents.LargeComponent"
-        android:background="#ff22" />
+        android:background="#FFFEFE" />
 </LinearLayout>

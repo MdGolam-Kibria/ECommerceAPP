@@ -62,8 +62,13 @@
 
                     <include layout="@layout/horizontal_tab"/>
 
-                    <include layout="@layout/tabs"
-                        />
+                    <include layout="@layout/tabs"/>
+
+                    <androidx.viewpager.widget.ViewPager
+                        android:id="@+id/viewPager"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
                 </LinearLayout>
 
 
