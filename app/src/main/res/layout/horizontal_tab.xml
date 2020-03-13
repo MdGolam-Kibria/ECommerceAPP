@@ -6,23 +6,91 @@
     android:layout_height="match_parent">
 
 <RelativeLayout
-    
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
+    android:gravity="center"
     tools:ignore="MissingConstraints">
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/newsfeedImage"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:src="@drawable/ic_launcher_background"/>
-
+        android:src="@drawable/ic_launcher_background"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"/>
 <TextView
     android:id="@+id/newfeedText"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="NewsFeed"
-    android:layout_below="@+id/newsfeedImage"/>
+    android:layout_below="@+id/newsfeedImage"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="15dp"/>
+
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/GiftCardImage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_toRightOf="@+id/newsfeedImage"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp"/>
+        <TextView
+            android:id="@+id/GiftcardText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giftcard"
+            android:layout_below="@+id/GiftCardImage"
+            android:layout_toRightOf="@+id/newfeedText"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp"/>
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/CampaignsImage"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_toRightOf="@+id/GiftCardImage"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"/>
+    <TextView
+        android:id="@+id/CampaignsTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Campaign"
+        android:layout_below="@+id/GiftCardImage"
+        android:layout_toRightOf="@+id/GiftcardText"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"/>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/OrdersImage"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_toRightOf="@+id/CampaignsImage"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"/>
+    <TextView
+        android:id="@+id/OrdersText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Orders"
+        android:layout_below="@+id/OrdersImage"
+        android:layout_toRightOf="@+id/CampaignsTxt"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+
+
+
+
+
     
 </RelativeLayout>
 
