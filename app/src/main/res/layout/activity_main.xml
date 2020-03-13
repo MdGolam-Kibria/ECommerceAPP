@@ -49,10 +49,15 @@
            android:layout_width="wrap_content"
            android:layout_margin="10dp"
            android:layout_height="match_parent">
-           <TextView
-               android:text="@string/testScroll"
-               android:layout_width="match_parent"
-               android:layout_height="match_parent"/>
+
+           <include
+
+               layout="@layout/horizontal_tab"
+               />
+
+
+
+
        </androidx.core.widget.NestedScrollView>
    </LinearLayout>
 

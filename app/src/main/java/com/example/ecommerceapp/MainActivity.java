@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         drawerLayout.addDrawerListener(actionBarDrawerToggle);
         actionBarDrawerToggle.syncState();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);//for toggle
-        navbar.canScrollVertically(ViewGroup.SCROLLBARS_INSIDE_OVERLAY );
+        //navbar.canScrollVertically(ViewGroup.SCROLLBARS_INSIDE_OVERLAY );
         navbar.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
